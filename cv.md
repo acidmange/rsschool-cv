@@ -21,3 +21,38 @@ Currently I work part-time as a system administrator in a construction company. 
 * Git
 * Figma
 * Surge
+
+## Code Example 
+
+**Description:**
+
+Implement and export by default a function that takes as input an array of a certain structure and returns an object derived from that array
+
+**Example**
+
+```javascript
+convert([]); // {}
+convert([['key', 'value']]); // { key: 'value' }
+convert([['key', 'value'], ['key2', 'value2']]); // { key: 'value', key2: 'value2' }
+
+convert([
+  ['key', [['key2', 'anotherValue']]],
+  ['key2', 'value2']
+]);
+// { key: { key2: 'anotherValue' }, key2: 'value2' }
+```
+
+**Code**
+
+```javascript
+const convert = (arr) => arr.reduce((acc, [key, value]) => {
+  if (!Array.isArray(value)) {
+    acc[key] = value;
+  } else {
+    acc[key] = convert(value);
+  }
+  return acc;
+}, {});
+
+export default convert;
+```
