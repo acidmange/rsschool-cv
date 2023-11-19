@@ -69,5 +69,5 @@ export default convert;
 
 * **English** (Proficient)
     + [link](https://www.efset.org/cert/nXSVsY)
-    + ![Efset Certificate](/assets/images/efset.png)
+![Efset Certificate](/assets/images/efset.png)
 * **Russian** (Native)
