@@ -56,3 +56,11 @@ const convert = (arr) => arr.reduce((acc, [key, value]) => {
 
 export default convert;
 ```
+
+## Courses
+
+* **Hexlet - Layout Design** (Completed)
+
+![Hexlet Layout Design course](/assets/images/hexlet.png)
+
+* **RSSchool - Frontend Developer** (In progress)
