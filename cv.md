@@ -65,6 +65,13 @@ export default convert;
 
 * **RSSchool - Frontend Developer** (In progress)
 
+## Projects
+
+* **Hexlet Frontend project**
+    + [link](https://github.com/acidmange/frontend-project-lvl1)
+* **Hexlet Layout Design project**
+    + [link](https://github.com/acidmange/layout-designer-project-56)
+
 ## Languages
 
 ![Efset Certificate](/assets/images/efset.png)
