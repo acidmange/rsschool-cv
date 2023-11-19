@@ -64,3 +64,10 @@ export default convert;
 ![Hexlet Layout Design course](/assets/images/hexlet.png)
 
 * **RSSchool - Frontend Developer** (In progress)
+
+## Languages
+
+* **English** (Proficient)
+    + [link](https://www.efset.org/cert/nXSVsY)
+    + ![Efset Certificate](/assets/images/efset.png)
+* **Russian** (Native)
