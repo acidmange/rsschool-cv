@@ -67,7 +67,8 @@ export default convert;
 
 ## Languages
 
+![Efset Certificate](/assets/images/efset.png)
+
 * **English** (Proficient)
     + [link](https://www.efset.org/cert/nXSVsY)
-![Efset Certificate](/assets/images/efset.png)
 * **Russian** (Native)
