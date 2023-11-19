@@ -67,10 +67,8 @@ export default convert;
 
 ## Projects
 
-* **Hexlet Frontend project**
-    + [link](https://github.com/acidmange/frontend-project-lvl1)
-* **Hexlet Layout Design project**
-    + [link](https://github.com/acidmange/layout-designer-project-56)
+* [**Hexlet Frontend project**](https://github.com/acidmange/frontend-project-lvl1)
+* [**Hexlet Layout Design project**](https://github.com/acidmange/layout-designer-project-56)
 
 ## Languages
 
