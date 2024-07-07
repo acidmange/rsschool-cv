@@ -211,7 +211,8 @@
               <p class="courses-item-header montserrat-medium">Hexlet - JS Backend Developer (In progress)</p>
             </li>
             <li class="courses-item">
-              <p class="courses-item-header montserrat-medium">RSSchool - Frontend Developer Pre School (In progress)</p>
+              <p class="courses-item-header montserrat-medium">RSSchool - Frontend Developer Pre School (In progress)
+              </p>
             </li>
           </ul>
         </div>
@@ -228,13 +229,49 @@
             </li>
           </ul>
         </div>
+        <div class="code-example">
+          <h2 class="h2-header">Code Example</h2>
+          <h3>Task</h3>
+          <pre class="code-example-code">
+            <code>
+              convert([]); 
+              // {}
+              convert([['key', 'value']]);
+              // { key: 'value' }
+              convert([['key', 'value'], ['key2', 'value2']]);
+              // { key: 'value', key2: 'value2' }
+              convert([
+                ['key', [['key2', 'anotherValue']]],
+                ['key2', 'value2']
+              ]);
+              // { key: { key2: 'anotherValue' }, key2: 'value2' }
+            </code>
+          </pre>
+          <h3>Solution</h3>
+          <pre class="code-example-code">
+            <code>
+              const convert = (arr) => arr.reduce((acc, [key, value]) => {
+                if (!Array.isArray(value)) {
+                  acc[key] = value;
+                } else {
+                  acc[key] = convert(value);
+                }
+                return acc;
+              }, {});
+              
+              export default convert;
+            </code>
+          </pre>
+
+        </div>
       </div>
 
     </main>
     <footer>
       <div class="footer-info">
-        <p class="footer-text montserrat-default">Made by <a class="footer-link" href="https://github.com/acidmange/">acidmange</a> for <a
-            class="footer-link" href="https://rs.school/courses/javascript-ru">RSSchool</a> in <span class="footer-span">2024</span></p>
+        <p class="footer-text montserrat-default">Made by <a class="footer-link"
+            href="https://github.com/acidmange/">acidmange</a> for <a class="footer-link"
+            href="https://rs.school/courses/javascript-ru">RSSchool</a> in <span class="footer-span">2024</span></p>
         <img class="footer-img" src="./assets/icons/rs-logo.svg" alt="rsschool logo">
       </div>
     </footer>

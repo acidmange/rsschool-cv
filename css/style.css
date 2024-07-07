@@ -56,7 +56,7 @@
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -113,8 +113,8 @@
 
 .main {
   display: flex;
-  align-items: center;
   width: 100%;
+  justify-content: center;
 }
 
 .main-left {
@@ -252,7 +252,8 @@
 }
 
 .courses-img {
-  height: 200px;
+  height: auto;
+  max-width: 100%;
 }
 
 .courses-header {
@@ -276,6 +277,10 @@
 }
 
 .project-item {
+  font-weight: 600;
+}
+
+.code-example-code {
   font-weight: 600;
 }
 
