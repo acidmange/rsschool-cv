@@ -3,3 +3,95 @@
 
   scroll-behavior: smooth;
 }
+
+.open-sans-default {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.open-sans-bold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.header-left {
+  background: linear-gradient(#ccffcc, #ccffee);
+  padding: 40px 100px 40px 70px;
+  width: 40%;
+}
+
+.header-right {
+  width: 60%;
+}
+
+.avatar {
+  height: 200px;
+  width: 200px;
+}
+
+.avatar-img {
+  border-radius: 50%;
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+.page-title {
+  padding: 50px;
+}
+
+.page-title-header {
+  margin: 0;
+  padding: 0;
+  font-size: 45px;
+}
+
+.page-title-text {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.main-left {
+  background: linear-gradient(#ccffee, #cceeff);
+  width: 40%;
+  padding-left: 50px;
+  padding-right: 70px;
+  color: #333333;
+}
+
+.contacts-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: #333333;
+}
