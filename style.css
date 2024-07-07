@@ -4,6 +4,27 @@
   scroll-behavior: smooth;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
+.ul-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.ul-link {
+  text-decoration: none;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.h2-header {
+  margin: 40px 0 0 0;
+}
+
 .open-sans-default {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -13,6 +34,24 @@
 .open-sans-bold {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
+  font-style: normal;
+}
+
+.montserrat-default {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.montserrat-medium {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -34,7 +73,7 @@
 }
 
 .header-left {
-  background: linear-gradient(#ccffcc, #ccffee);
+  background: linear-gradient(#ffffff, #ccffee);
   padding: 40px 100px 40px 70px;
   width: 40%;
 }
@@ -79,11 +118,16 @@
 }
 
 .main-left {
-  background: linear-gradient(#ccffee, #cceeff);
+  background: #ccffee;
   width: 40%;
   padding-left: 50px;
   padding-right: 70px;
   color: #333333;
+}
+
+.main-right {
+  width: 60%;
+  padding: 0 50px;
 }
 
 .contacts-list {
@@ -94,4 +138,137 @@
 .contacts-link {
   text-decoration: none;
   color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts-element {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.contacts-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.contacts-header {
+  margin: 0;
+  padding: 0;
+}
+
+.about-text {
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+.about-header {
+  padding: 0;
+}
+
+.skill-text {
+  width: 20%;
+  margin: 0;
+  padding: 0;
+}
+
+.skill-block {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.skill-wrapper {
+  list-style-type: none;
+  margin: 25px 0;
+  padding: 0;
+}
+
+.skill-value {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0 0 0 35px;
+}
+
+.skill-value-item {
+  width: 10px;
+  height: 10px;
+  background-color: #66ffc2;
+  margin-right: 5px;
+  margin-top: auto;
+  position: relative;
+  top: 1px;
+}
+
+.gray-value {
+  background-color: #bfbfbf;
+}
+
+.langs {
+  margin: 40px 0 0 0;
+}
+
+.langs-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 25px 0;
+}
+
+.langs-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.langs-item-link {
+  color: #333333;
+  text-decoration: none;
+  position: relative;
+  top: 2px;
+}
+
+.langs-item-img {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  position: relative;
+  top: 1px;
+}
+
+.langs-item-header {
+  margin: 0;
+}
+
+.langs-item-text {
+  margin: 0 0 0 10px;
+  position: relative;
+  top: 2px;
+}
+
+.courses-img {
+  height: 200px;
+}
+
+.courses-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.projects-header {
+  padding-bottom: 20px;
+}
+
+.project-item {
+  font-weight: 600;
+}
+
+/* footer */
+
+.footer-left {
+  background: linear-gradient(#ccffee, #ffffff);
+  width: 40%;
 }
