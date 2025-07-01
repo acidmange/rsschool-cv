@@ -11,7 +11,7 @@
 
 ## About
 
-Currently I work part-time as a system administrator in a construction company. My goals are to expand my knowledge in computer science and gain a deep understanding of web technologies. I strive to become a competent frontend developer. Thats why I finished a layout designer course on hexlet.io, and now I’m taking the frontend-developer course at rsschool
+Currently I work as a system administrator in a construction company. My goals are to expand my knowledge in computer science and gain a deep understanding of web technologies. I strive to become a competent fullstack developer. Thats why I finished a layout designer course on hexlet.io, and now I’m taking the frontend-developer course at rsschool
 
 ## Skills
 
@@ -21,6 +21,7 @@ Currently I work part-time as a system administrator in a construction company. 
 * Git
 * Figma
 * Surge
+* NodeJS
 
 ## Code Example 
 
@@ -69,6 +70,9 @@ export default convert;
 
 * [**Hexlet Frontend project**](https://github.com/acidmange/frontend-project-lvl1)
 * [**Hexlet Layout Design project**](https://github.com/acidmange/layout-designer-project-56)
+* [**NodeJS Basics Project**](https://github.com/acidmange/node-nodejs-basics/tree/nodejs-basics)
+* [**NodeJS File Manager**](https://github.com/acidmange/node-file-manager/tree/file-manager)
+
 
 ## Languages
 
