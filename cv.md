@@ -72,7 +72,7 @@ export default convert;
 * [**Hexlet Layout Design project**](https://github.com/acidmange/layout-designer-project-56)
 * [**NodeJS Basics Project**](https://github.com/acidmange/node-nodejs-basics/tree/nodejs-basics)
 * [**NodeJS File Manager**](https://github.com/acidmange/node-file-manager/tree/file-manager)
-
+* [**Shelter Frontend Project**](https://github.com/acidmange/RSSchool-Shelter/tree/main)
 
 ## Languages
 
